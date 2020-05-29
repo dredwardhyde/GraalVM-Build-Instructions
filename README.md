@@ -33,5 +33,7 @@
   - ```mx build```
 
  - After that the following command should print similar output:  
-```mx vm -XX:+UnlockExperimentalVMOptions -XX:+UseJVMCICompiler  -XX:+EnableJVMCI  -Dgraal.CompilerConfiguration=community -XX:+EagerJVMCI -Dgraal.ShowConfiguration=info -Djvmci.Compiler=graal -version```  
-<img src="https://raw.githubusercontent.com/dredwardhyde/graalvm-building-instructions/master/win_result.png" width="900"/>
+    ```mx vm -XX:+UnlockExperimentalVMOptions -XX:+UseJVMCICompiler  -XX:+EnableJVMCI  -Dgraal.CompilerConfiguration=community -    XX:+EagerJVMCI -Dgraal.ShowConfiguration=info -Djvmci.Compiler=graal -version```  
+      <img src="https://raw.githubusercontent.com/dredwardhyde/graalvm-building-instructions/master/win_result.png" width="900"/>  
+  - OpenJDK distribution with GraalVM JVMCI Compiler is located at:  
+  ```<current folder>\graalvm\graal\compiler\mxbuild\windows-amd64\graaljdks\jdk14-cmp```
