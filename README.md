@@ -12,6 +12,8 @@
 
 ### Building process 
 - Open **x64 Native Tools Command Prompt for VS 2017**
+- Edit and execute [this script](https://github.com/dredwardhyde/graalvm-building-instructions/blob/master/graal_script.bat)
+- OR
 - Execute following commands:
   - ```set JAVA_HOME=<path to JDK 14 folder>```
   - ```set PYTHON27=<path to Python 2.7 folder>```
@@ -31,4 +33,5 @@
   - ```mx build```
 
  - After that the following command should print similar output:  
-```mx vm -XX:+UnlockExperimentalVMOptions -XX:+UseJVMCICompiler  -XX:+EnableJVMCI  -Dgraal.CompilerConfiguration=community -XX:+EagerJVMCI -Dgraal.ShowConfiguration=info -Djvmci.Compiler=graal -version```
+```mx vm -XX:+UnlockExperimentalVMOptions -XX:+UseJVMCICompiler  -XX:+EnableJVMCI  -Dgraal.CompilerConfiguration=community -XX:+EagerJVMCI -Dgraal.ShowConfiguration=info -Djvmci.Compiler=graal -version```  
+<img src="https://raw.githubusercontent.com/dredwardhyde/graalvm-building-instructions/master/win_result.png" width="900"/>
