@@ -5,10 +5,10 @@
 ### Prerequisites
 - **Visual Studio 2017** must be installed 
 - Execute scripts below from **x64 Native Tools Command Prompt for VS 2017**
-- Windows 10 SDK must be installed from [here](https://go.microsoft.com/fwlink/p/?linkid=2120843)
-- OpenJDK 14 could be downloaded from [here](https://bell-sw.com/pages/downloads/?release=14.0.1+8)
-- Python 2.7 must be installed from [here](https://www.python.org/ftp/python/2.7.18/python-2.7.18.amd64.msi)
-- Git for Windows must be installed from [here](https://git-scm.com/download/win)
+- **Windows 10 SDK** must be installed from [here](https://go.microsoft.com/fwlink/p/?linkid=2120843)
+- **OpenJDK 14** could be downloaded from [here](https://bell-sw.com/pages/downloads/?release=14.0.1+8)
+- **Python 2.7** must be installed from [here](https://www.python.org/ftp/python/2.7.18/python-2.7.18.amd64.msi)
+- **Git for Windows** must be installed from [here](https://git-scm.com/download/win)
 
 ### Building process 
 - Open **x64 Native Tools Command Prompt for VS 2017**
@@ -43,9 +43,9 @@
 
 ### Prerequisites
 - **Latest Xcode** must be installed 
-- OpenJDK 14 could be downloaded from [here](https://bell-sw.com/pages/downloads/?release=14.0.1+8)
-- Latest Python must be installed from [here](https://www.python.org/downloads/mac-osx/) or ```brew install python```
-- Git must be installed from [here](https://git-scm.com/download/mac) or ```brew install git```
+- **OpenJDK 14** could be downloaded from [here](https://bell-sw.com/pages/downloads/?release=14.0.1+8)
+- Latest **Python** must be installed from [here](https://www.python.org/downloads/mac-osx/) or ```brew install python```
+- **Git** must be installed from [here](https://git-scm.com/download/mac) or ```brew install git```
 
 ### Building process 
 - Execute following commands from Terminal:
