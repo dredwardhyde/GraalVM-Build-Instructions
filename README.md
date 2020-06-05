@@ -15,6 +15,7 @@
 - Edit and execute [this script](https://github.com/dredwardhyde/graalvm-building-instructions/blob/master/graal_script.bat)
 - OR
 - Execute following commands:
+  - ```call C:\Progra~2\MICROS~1\2017\Enterprise\VC\Auxiliary\Build\vcvarsall.bat x64```
   - ```set JAVA_HOME=<path to JDK 14 folder>```
   - ```set PYTHON27=<path to Python 2.7 folder>```
   - ```set EXTRA_JAVA_HOMES=<path to JDK 14 folder>```
